@@ -1,0 +1,273 @@
+
+body, figure, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #000 ;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+
+  header:hover {
+    color: #ff4e35;
+    transition: 2s;
+    
+  }
+  
+  .logo {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .buy-button {
+    background-color: #ff6347;
+    color: #fff;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-button:hover {
+    background-color: #ff4e35;
+  }
+  
+  #hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-color: #f8f8f8;
+  }
+
+  .image {
+    height: 60%;
+    width: 60%;
+  }
+  
+  .hero-content {
+    max-width: 300px;
+  }
+  
+  .hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+  }
+  
+  #features {
+    padding: 80px;
+    background-color: #fff;
+  }
+  
+  #features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature img {
+    max-width: 100%;
+   
+}
+
+.feature h3 {
+font-size: 24px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.feature p {
+text-align: center;
+}
+
+.video {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.benefits{
+    margin: 10px;
+    text-align: center;
+}
+
+.pricing {
+    text-align: center;
+}
+
+
+#pricing {
+padding: 80px;
+background-color: #f8f8f8;
+}
+#pricing h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    }
+    
+    .pricing-option {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    
+    .pricing-option h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+    .price {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        }
+        
+        .pricing-option ul {
+        list-style-type: none;
+        margin-bottom: 40px;
+        }
+        
+        .pricing-option ul li {
+        margin-bottom: 10px;
+        }
+        
+        .buy-button {
+        background-color: #ff6347;
+        color: #fff;  
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: 0.3s;
+}
+
+.buy-button:hover {
+background-color: #ff4e35;
+}
+
+#contact {
+padding: 80px;
+background-color: white;
+}
+
+#contact h2 {
+font-size: 36px;
+margin-bottom: 40px;
+}
+
+form {
+max-width: 500px;
+margin: 0 auto;
+}
+
+input[type="text"], input[type="email"], textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #b5b1b1;
+border-radius: 5px;
+}
+
+textarea {
+height: 120px;
+}
+
+input[type="submit"] {
+background-color: #ff6347;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+background-color: #ff4e35;
+}
+
+footer {
+background-color: #000;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+.footer p {
+font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+#hero {
+flex-direction: column;
+padding: 40px;
+}
+
+.hero-content {
+max-width: 100%;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.hero-image img {
+max-width: 80%;
+}
+
+#features {
+padding: 40px;
+}
+
+.pricing-option {
+max-width: 100%;
+margin-bottom: 40px;
+}
+
+#contact {
+padding: 60px;
+}
+
+form {
+max-width: 100%;
+}
+}
